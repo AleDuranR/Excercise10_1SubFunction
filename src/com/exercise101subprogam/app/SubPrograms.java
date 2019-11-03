@@ -12,14 +12,15 @@ public class SubPrograms {
 			Scanner scan = new Scanner(System.in);
 			// Calling the method 'ShowTunnedMessage' that ask for a String to work
 			System.out.println(ShowTunnedMessage("Ale"));
+			// Calling the method 'ShowMessage' that will display the message 'Input a number'
 			ShowMessage();
 			num1 = scan.nextInt();
 			ShowMessage();
 			num2 = scan.nextInt();
-			// Calling the method 'AddNumbers'
+			// Calling the method 'AddNumbers' that will add num1 + num2
 			result = AddNumbers(num1,num2);
 			
-			System.out.println("Result is " + result);
+			System.out.println("Addition: Result is " + result);
 			
 			scan.close();
 			
